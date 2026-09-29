@@ -13,10 +13,15 @@ expo-env.d.ts
 .kotlin/
 *.orig.*
 *.jks
+*.keystore
 *.p8
 *.p12
 *.key
 *.mobileprovision
+
+# build logs
+build-release*.log
+*.log
 
 # Metro
 .metro-health-check*
@@ -39,3 +44,17 @@ yarn-error.*
 # generated native folders
 /ios
 /android
+
+# AI / assistant files
+AGENTS.md
+CLAUDE.md
+GEMINI.md
+.cursorrules
+.cursor/
+.claude/
+.aider.conf.yml
+.aider/
+.opencode/
+.github/copilot-instructions.md
+.cohere/
+.windsurf/

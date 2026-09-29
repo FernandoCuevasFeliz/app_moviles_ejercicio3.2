@@ -1,0 +1,2 @@
+Nota: El proyecto fue realizado en react native con expo
+Link de github:
